@@ -1,0 +1,84 @@
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightcyan;
+}
+
+h1{
+  text-align: center;
+  color: darkcyan;
+  font-weight: strong;
+}
+
+table{
+    border: 2px solid darkorchid;
+    width: 600px;
+    margin: 0 auto;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: darkcyan;
+}
+
+th{
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: -internal -center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid darkcyan;
+  padding: 2px 5px;
+}
+
+td{
+  border: 1px solid darkcyan;
+  padding: 1px 5px;
+  font-family:Georgia, 'Times New Roman', Times;
+  display: table-cell;
+  vertical-align: inherit;
+  font-size: small;
+}
+
+h2{
+  text-align: center;
+  color: darkcyan;
+}
+
+.color{
+  color: red;
+  font-weight:bold;
+}
+
+.line{
+  line-height: 2;
+  color: red;
+  font-weight: bold;
+}
+
+.space{
+  letter-spacing: 1em;
+  color:red;
+  font-weight:bold;
+}
+
+.decrease{
+  letter-spacing: -0.25em;
+  color: red;
+  font-weight: bold;
+  }
+
+.decor{
+  color: red;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.trans{
+  text-transform: uppercase;
+  color: red;
+}
+
+.indent{
+  text-indent: 5em;
+  color: red;
+}
